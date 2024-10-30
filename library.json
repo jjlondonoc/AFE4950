@@ -1,0 +1,31 @@
+{
+    "name": "AFE4950",
+    "keywords": ["ECG", "PPG", "AFE4950", "medical", "signal processing"],
+    "description": "Library to interface the AFE4950 with Arduino/ESP32 for ECG and PPG signal acquisition.",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/jjlondonoc/AFE4950"
+    },
+    "version": "1.0.0",
+    "exclude": "tests",
+    "examples": "examples/*/*.ino",
+    "frameworks": "arduino",
+    "authors":
+    [
+      {
+        "name": "Juan Jose Londono",
+        "email": "jjlondonocarrillo@gmail.com",
+        "maintainer": true
+      }
+    ],
+    "platforms": [
+        "atmelavr",
+        "espressif8266",
+        "espressif32",
+        "atmelsam",
+        "ststm32"
+    ],
+    "license": "MIT"
+  }
+  
